@@ -26,24 +26,21 @@ a.active {
 /*---------------- Typography -----------------*/
 
 p {
-	font-family: 'Lato', serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #333;
 }
 
 .nav-links ul li a {
-	font-family: 'Lato', serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	color: #333;
 	letter-spacing: 1.3px;
 }
 
-.jumbotron .site-desc {
+.site-desc {
 	font-family: 'Lusitana', serif;
-	font-weight: 400;
-	color: #333;
-	z-index: 0;
 }
 
 .section-title {
@@ -51,7 +48,7 @@ p {
 }
 
 .subtitle {
-	font-family: 'Lato', serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 500 !important;
 }
 
@@ -127,6 +124,7 @@ p {
 
 #intro {
 	background-color: #F7F4F0;
+	padding: 50px 0;
 
 }
 
@@ -134,6 +132,7 @@ p {
 
 #services {
 	background-color: #e4e4e4;
+	padding: 50px 0;
 
 }
 
