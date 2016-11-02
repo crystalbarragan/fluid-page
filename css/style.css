@@ -32,6 +32,20 @@ p {
 	color: #333;
 }
 
+.nav-links ul li a {
+	font-family: 'Lato', serif;
+	font-weight: 700;
+	color: #333;
+	letter-spacing: 1.3px;
+}
+
+.jumbotron .site-desc {
+	font-family: 'Lusitana', serif;
+	font-weight: 400;
+	color: #333;
+	z-index: 0;
+}
+
 .section-title {
 	text-align: center:
 }
@@ -61,13 +75,6 @@ p {
 	text-transform: uppercase;
 }
 
-.nav-links ul li a {
-	font-family: 'Lato', serif;
-	font-weight: 700;
-	color: #333;
-	letter-spacing: 1.3px;
-}
-
 .navbar-brand {
 	font-family: 'Lusitana', serif;
 	font-weight: 700;
@@ -79,14 +86,6 @@ p {
 
 .navbar .container {
 	margin-top: 18px;
-}
-
-.icon-bar {
-	color: #333;
-}
-
-.nav-links ul li a .shop {
-	color: red;
 }
 
 /*------------------- Home -------------------*/
@@ -116,13 +115,6 @@ p {
   margin-top: -55px;
 }
 
-.jumbotron .site-desc {
-	font-family: 'Lusitana', serif;
-	font-weight: 400;
-	color: #333;
-	z-index: 0;
-}
-
 .hero-box {
 	display: flex;
 	flex-direction: column;
@@ -135,7 +127,6 @@ p {
 
 #intro {
 	background-color: #F7F4F0;
-	padding: 50px 0;
 
 }
 
@@ -143,7 +134,6 @@ p {
 
 #services {
 	background-color: #e4e4e4;
-	padding: 50px 0;
 
 }
 
