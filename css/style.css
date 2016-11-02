@@ -1,0 +1,156 @@
+/*------------- General Styles ------------------*/
+body {
+	background: #ffffff;
+	overflow-x: hidden;
+	color: #333;
+	-webkit-font-smoothing: subpixel-antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+a:link,
+a:visited {
+	color: white;
+	text-decoration: none;
+  cursor: pointer;
+
+}
+
+a:hover,
+a.active {
+	color: white;
+	text-decoration: none;
+	transition: 0.5s;
+  cursor: pointer;
+}
+
+/*---------------- Typography -----------------*/
+
+p {
+	font-family: 'Lato', serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #333;
+}
+
+.section-title {
+	text-align: center:
+}
+
+.subtitle {
+	font-family: 'Lato', serif;
+	font-weight: 500 !important;
+}
+
+.section-line {
+	background: #333;
+	width: 55px;
+	height: 1px;
+	margin: 30px auto;
+}
+/*------------------- Nav Menu -------------------*/
+
+.navbar-custom {
+	background: whitesmoke !important;
+	border-bottom: none !important;
+	min-height: 80px !important;
+
+}
+
+.main-nav {
+	margin-top: 30px !important;
+	text-transform: uppercase;
+}
+
+.nav-links ul li a {
+	font-family: 'Lato', serif;
+	font-weight: 700;
+	color: #333;
+	letter-spacing: 1.3px;
+}
+
+.navbar-brand {
+	font-family: 'Lusitana', serif;
+	font-weight: 700;
+	font-size: 2em;
+	color: #333 !important;
+	text-transform: none;
+
+}
+
+.navbar .container {
+	margin-top: 18px;
+}
+
+.icon-bar {
+	color: #333;
+}
+
+.nav-links ul li a .shop {
+	color: red;
+}
+
+/*------------------- Home -------------------*/
+
+#home {
+}
+
+.jumbotron {
+	height: calc(100vh - 55px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: -1;
+	background-image: url("https://images.unsplash.com/photo-1439466654360-5e8bbd819be5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=271f23afe5cc8d4352893c145dbf6bb4");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	    -ms-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+.jumbotron .hero-box {
+	height: 300px;
+  margin-top: -55px;
+}
+
+.jumbotron .site-desc {
+	font-family: 'Lusitana', serif;
+	font-weight: 400;
+	color: #333;
+	z-index: 0;
+}
+
+.hero-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(255,255,255,0.5);
+	z-index: 1;
+}
+
+/*----------------- Intro -------------------*/
+
+#intro {
+	background-color: #F7F4F0;
+	padding: 50px 0;
+
+}
+
+/*----------------- Services -----------------*/
+
+#services {
+	background-color: #e4e4e4;
+	padding: 50px 0;
+
+}
+
+/*------------------ Footer -------------------*/
+
+#footer {
+	background-color: #d5c9c8;
+	padding: 50px 0;
+
+}
