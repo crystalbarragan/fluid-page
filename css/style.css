@@ -1,6 +1,6 @@
 /*------------- General Styles ------------------*/
 body {
-	background: whitesmoke;
+	background: #F5F5F5;
 	overflow-x: hidden;
 	color: #333;
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -61,7 +61,7 @@ p {
 /*------------------- Nav Menu -------------------*/
 
 .navbar-custom {
-	background: whitesmoke !important;
+	background: #F5F5F5 !important;
 	border-bottom: none !important;
 	min-height: 80px !important;
 
